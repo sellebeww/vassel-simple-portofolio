@@ -1,4 +1,4 @@
-# Vassel Goleyu Portfolio
+# Vassel Goleyu Simple Portfolio
 
 Portofolio statis: HTML, CSS, JavaScript, dan Python (generator). Tanpa framework atau backend.
 
