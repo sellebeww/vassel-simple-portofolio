@@ -77,7 +77,7 @@
     pressureBar.style.setProperty('--p', Math.min(1, value));
     pressureBar.classList.toggle('on', value > 0);
     clearTimeout(pressureTimer);
-    if (value > 0) pressureTimer = setTimeout(() => setPressure(0), 900);
+    if (value > 0) pressureTimer = setTimeout(() => setPressure(0), 700);
   }
 
   function followHash() {
@@ -121,7 +121,7 @@
   document.querySelector('.menu-backdrop').addEventListener('click', () => closeMenu());
   const isInteractive = target => target.closest('input, textarea, select, button, a, summary, [contenteditable="true"], dialog');
   const atBoundary = (section, direction) => direction > 0
-    ? section.scrollTop + section.clientHeight >= section.scrollHeight - 2
+    ? section.scrollTop + section.clientHeight >= section.scrollHeight - 4
     : section.scrollTop <= 2;
   let keyArmed = 0;
   let keyTimer;
@@ -151,11 +151,10 @@
     clearTimeout(keyTimer);
     keyTimer = setTimeout(() => { keyArmed = 0; }, 1500);
   });
-  const WHEEL_PRESSURE = 480;
+  const WHEEL_PRESSURE = 1700;
   let wheelPressure = 0;
   let wheelDirection = 0;
   let wheelTime = 0;
-  let settling = false;
   document.addEventListener('wheel', event => {
     if (!panel.hidden || document.querySelector('dialog[open]') || event.ctrlKey || event.target.closest('input, textarea, select, [contenteditable="true"]')) return;
     if (Math.abs(event.deltaX) >= Math.abs(event.deltaY)) return;
@@ -165,21 +164,21 @@
     const now = performance.now();
     event.preventDefault();
     if (now - lastNavigation < 400) { wheelTime = now; return; }
-    // A pause between wheel events means a new gesture; momentum from the previous one is over.
-    if (now - wheelTime > 140) settling = false;
     if (direction !== wheelDirection || now - wheelTime > 600) wheelPressure = 0;
     wheelDirection = direction;
     wheelTime = now;
     if (!atBoundary(section, direction)) {
+      const before = section.scrollTop;
       section.scrollTop += delta;
-      wheelPressure = 0;
-      setPressure(0);
-      // Reaching the edge mid-gesture never counts; the user has to keep scrolling in a fresh push.
-      settling = atBoundary(section, direction);
-      return;
+      // Sub-pixel heights can leave the edge a few px away; if nothing moved, we are at the edge.
+      if (section.scrollTop !== before) {
+        wheelPressure = 0;
+        setPressure(0);
+        return;
+      }
     }
-    if (settling) return;
-    wheelPressure += Math.abs(delta);
+    // Cap each event so a momentum burst can't jump the whole threshold at once.
+    wheelPressure += Math.min(Math.abs(delta), 60);
     setPressure(wheelPressure / WHEEL_PRESSURE);
     if (wheelPressure >= WHEEL_PRESSURE) {
       wheelPressure = 0;

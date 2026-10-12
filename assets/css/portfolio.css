@@ -54,7 +54,7 @@ p{color:var(--muted)}
 .section-controls button{width:32px;height:32px;border:1px solid var(--line);background:none;font-size:17px}
 .section-controls button:hover{border-color:var(--blue);color:white}
 .section-controls button:disabled{opacity:.25;cursor:default}
-.pressure{position:absolute;top:-12px;left:50%;width:120px;margin-left:-60px;height:2px;background:var(--line);opacity:0;transition:opacity .2s;pointer-events:none}
+.pressure{position:absolute;top:-14px;left:50%;width:180px;margin-left:-90px;height:3px;background:var(--line);opacity:0;transition:opacity .2s;pointer-events:none}
 .pressure.on{opacity:1}
 .pressure::after{content:'';display:block;height:100%;background:var(--blue);transform:scaleX(var(--p,0));transform-origin:left;transition:transform .12s}
 .chat-highlight{animation:chat-flash 1.4s ease}
