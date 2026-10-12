@@ -1,0 +1,608 @@
+{
+  "checkedAt": "2026-10-12",
+  "source": "https://github.com/sellebeww/vassel-portfolio/blob/main/src/data/portfolio.ts",
+  "profile": {
+    "name": "Vassel Goleyu",
+    "role": "Informatics student · Full-stack developer",
+    "headline": "Attentive to even the smallest details, I have a genuine curiosity for the world around me. My thoughtful approach to challenges allows me to merge intelligence with creativity, resulting in innovative solutions that stand out. With a strong sense of preference and a one-of-a-kind perspective, I am passionate about making a meaningful impact in everything I do.",
+    "location": "Tangerang, Indonesia",
+    "bio": "An Informatics student at Universitas Multimedia Nusantara, building useful digital experiences and bringing people together through student leadership and community care.",
+    "email": "vassel.jgo@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vassel-goleyu",
+    "whatsapp": "https://wa.me/6287868918900",
+    "whatsappDisplay": "0878 6891 8900",
+    "instagram": "https://www.instagram.com/vassel_goleyu/",
+    "github": "https://github.com/sellebeww"
+  },
+  "experiences": [
+    {
+      "id": "bem-supervisor",
+      "focus": "Leadership",
+      "period": "Jan 2026 — Present",
+      "title": "Supervisor, Mister & Miss UMN",
+      "organization": "BEM UMN",
+      "description": "Designed the annual theme and supervised executive committees so programs stayed aligned with the Grand Design, student values, and campus regulations.",
+      "tags": [
+        "Program direction",
+        "Supervision",
+        "Event concept"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg"
+      ]
+    },
+    {
+      "id": "duta-anti-narkoba",
+      "focus": "Leadership",
+      "period": "Jan — Dec 2025",
+      "title": "President",
+      "organization": "Duta Anti Narkoba UMN",
+      "description": "Led health advocacy, school outreach, donation drives, blood donation activities, and Anti-Narkoba Week with campus and community partners.",
+      "tags": [
+        "Leadership",
+        "Advocacy",
+        "Community outreach"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg"
+      ]
+    },
+    {
+      "id": "medical-developer",
+      "focus": "Technology",
+      "period": "Feb — Dec 2025",
+      "title": "Full Stack Web Developer",
+      "organization": "UMN Medical Center",
+      "description": "Developed responsive Laravel applications, connected REST APIs and MySQL data, and implemented secure authentication and authorization.",
+      "tags": [
+        "Laravel",
+        "REST API",
+        "MySQL"
+      ],
+      "photos": [
+        "01.jpg"
+      ]
+    },
+    {
+      "id": "medical-health-center",
+      "focus": "Health",
+      "period": "Feb — Dec 2025",
+      "title": "Health Center Staff",
+      "organization": "UMN Medical Center",
+      "description": "Supported daily patient care, organized records, coordinated with healthcare providers, and shared preventive health education across campus.",
+      "tags": [
+        "Patient care",
+        "Health education",
+        "Records"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ]
+    },
+    {
+      "id": "unity-2025",
+      "focus": "Events",
+      "period": "Mar — Jul 2025",
+      "title": "Event Organizer & MC",
+      "organization": "UMN English Student Council",
+      "description": "Designed Scrabble, Speech, and Debate competitions for UNITY 2025 and served as an English-language semi-formal MC.",
+      "tags": [
+        "Event coordination",
+        "Public speaking",
+        "MC"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ]
+    },
+    {
+      "id": "byte",
+      "focus": "Events",
+      "period": "May — Nov 2025",
+      "title": "Event Organizer",
+      "organization": "HMIF UMN · Byte 2025",
+      "description": "Managed Horizon, Fuse, and Infinite programs, coordinating flow and logistics for exhibitions, competitions, and the interactive finale.",
+      "tags": [
+        "Program management",
+        "Logistics",
+        "Student events"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ]
+    },
+    {
+      "id": "garuda-hacks",
+      "focus": "Events",
+      "period": "Jul — Aug 2025",
+      "title": "Liaison Officer",
+      "organization": "Garuda Hacks",
+      "description": "Guided participants through the UMN venue, explained schedules and rules, and acted as an approachable information point throughout the event.",
+      "tags": [
+        "Participant support",
+        "Communication",
+        "Coordination"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg"
+      ]
+    },
+    {
+      "id": "omb-2025",
+      "focus": "Health",
+      "period": "Mar — Sep 2025",
+      "title": "Medical Staff",
+      "organization": "OMB UMN 2025",
+      "description": "Supported campus orientation as part of the medical staff team, helping keep participants cared for during a large student program.",
+      "tags": [
+        "Campus care",
+        "Teamwork"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg"
+      ]
+    },
+    {
+      "id": "isfest-2025",
+      "focus": "Events",
+      "period": "Feb — Oct 2025",
+      "title": "Academic Division",
+      "organization": "ISFEST UMN 2025 · HIMSI UMN",
+      "description": "Helped organize academic competitions, prepare guidelines and learning materials, and coordinate with judges.",
+      "tags": [
+        "Academic competitions",
+        "Learning materials",
+        "Coordination"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg"
+      ]
+    },
+    {
+      "id": "infinite",
+      "focus": "Events",
+      "period": "Sep — Nov 2024",
+      "title": "Event Division",
+      "organization": "Infinite · HMIF UMN",
+      "description": "Facilitated activities for around 500 students, managed timelines, and developed six interactive games for participant engagement.",
+      "tags": [
+        "Event planning",
+        "Interactive activities",
+        "Timeline"
+      ],
+      "photos": [
+        "01.jpg",
+        "02.jpg"
+      ]
+    }
+  ],
+  "achievements": [
+    [
+      "achievement-01-duta-anti-narkoba.jpg",
+      "2nd Place",
+      "Duta Anti Narkoba UMN",
+      "2024"
+    ],
+    [
+      "achievement-02-geography-runner-up.jpg",
+      "1st Runner-Up",
+      "National Geography Competition",
+      "2024"
+    ],
+    [
+      "achievement-03-geography-gold.jpg",
+      "Gold Medal",
+      "National Geography Competition",
+      "2024"
+    ],
+    [
+      "achievement-04-biology-runner-up.jpg",
+      "2nd Runner-Up",
+      "National Biology Competition",
+      "2023"
+    ],
+    [
+      "achievement-05-biology-gold.jpg",
+      "Gold Medal",
+      "National Biology Competition",
+      "2023"
+    ],
+    [
+      "achievement-06-english-rank10.jpg",
+      "Top 10",
+      "National English Competition",
+      "2023"
+    ],
+    [
+      "achievement-07-mathematics-silver.jpg",
+      "Silver Medal",
+      "National Mathematics Competition",
+      "2023"
+    ],
+    [
+      "achievement-08-english-runner-up.jpg",
+      "4th Runner-Up",
+      "National English Competition",
+      "2022"
+    ],
+    [
+      "achievement-09-biology-gold-2022.jpg",
+      "Gold Medal",
+      "National Biology Competition",
+      "2022"
+    ]
+  ],
+  "techStack": [
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "Web applications",
+      "detail": "Building responsive web applications."
+    },
+    {
+      "id": "rest",
+      "name": "REST APIs",
+      "category": "Integrations",
+      "detail": "Connecting application features and data."
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "Database",
+      "detail": "Working with application data and database integration."
+    }
+  ],
+  "repos": [
+    {
+      "name": "Batch-Aman",
+      "description": "PWA pencatatan batch makanan offline-first; ambang bawaan belum diverifikasi ahli.",
+      "url": "https://github.com/sellebeww/Batch-Aman",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "BUNDA-SIAGA",
+      "description": "Alat bantu offline kader posyandu dan bidan desa: tanda bahaya ibu hamil dan nifas, rujukan lewat SMS, server dinkes opsional (Android, Kotlin)",
+      "url": "https://github.com/sellebeww/BUNDA-SIAGA",
+      "language": "Kotlin",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "CAPIRA",
+      "description": "Offline-first PWA research prototype for smartphone-camera capillary refill time (CRT) measurement, qSOFA scoring, and referral drafts.",
+      "url": "https://github.com/sellebeww/CAPIRA",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "falsify-guardrail",
+      "description": "Exploit-confirmed guardrail for LLM-generated smart contracts",
+      "url": "https://github.com/sellebeww/falsify-guardrail",
+      "language": "Python",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "GEPREK-Project-Mata-Kuliah-Game-Development",
+      "description": "GEPREK! — Game 2D top-down simulasi bisnis dan manajemen waktu ayam geprek, dibuat dengan Unity untuk project mata kuliah Game Development.",
+      "url": "https://github.com/sellebeww/GEPREK-Project-Mata-Kuliah-Game-Development",
+      "language": "C#",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "IF433_Lab_Works",
+      "description": "Praktikum OOP",
+      "url": "https://github.com/sellebeww/IF433_Lab_Works",
+      "language": "Kotlin",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "JalanKita",
+      "description": "Aplikasi Android offline-first untuk melaporkan kerusakan jalan secara gotong royong.",
+      "url": "https://github.com/sellebeww/JalanKita",
+      "language": "Kotlin",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Ngantriin",
+      "description": "Aplikasi Android antrean restoran digital. Dibuat dengan Kotlin, Jetpack Compose, MVVM, Supabase, Room, WorkManager, dan Firebase Cloud Messaging.",
+      "url": "https://github.com/sellebeww/Ngantriin",
+      "language": "Kotlin",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "redesign-myumn",
+      "description": "Redesain portal mahasiswa UMN (MyUMN) - konsep desain dengan data contoh",
+      "url": "https://github.com/sellebeww/redesign-myumn",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "sellebeww",
+      "description": null,
+      "url": "https://github.com/sellebeww/sellebeww",
+      "language": "Python",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Smart-Toko",
+      "description": "Catat keuangan warung lewat suara: transaksi, stok, kasbon, laba per menu, laporan, sinkronisasi antar-HP, dan karyawan. Flutter + Supabase.",
+      "url": "https://github.com/sellebeww/Smart-Toko",
+      "language": "Dart",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "tomato-vision",
+      "description": "CNN dari nol (TensorFlow) untuk mengklasifikasi kesegaran tomat: segar, tidak segar, busuk. Demo berjalan di browser, foto tidak diunggah.",
+      "url": "https://github.com/sellebeww/tomato-vision",
+      "language": "Jupyter Notebook",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Ucup-Menjelajahi-Nusantara",
+      "description": "Projek akhir mata kuliah Advanced Web Programming - petualangan santai di kepulauan Nusantara dengan jurnal, teman perjalanan, dan minigame.",
+      "url": "https://github.com/sellebeww/Ucup-Menjelajahi-Nusantara",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "Vassel-F-B-Experience",
+      "description": "Dual F&B ordering experience — artisanal dining & Japanese matcha/coffee bar. Built with React, Vite & Tailwind.",
+      "url": "https://github.com/sellebeww/Vassel-F-B-Experience",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "vassel-nature-portfolio",
+      "description": "Personal portfolio website for Vassel Goleyu — built with Next.js.",
+      "url": "https://github.com/sellebeww/vassel-nature-portfolio",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "vassel-portfolio",
+      "description": "Scroll-driven 3D portfolio built with React, TypeScript and React Three Fiber.",
+      "url": "https://github.com/sellebeww/vassel-portfolio",
+      "language": "TypeScript",
+      "fork": false,
+      "archived": false
+    },
+    {
+      "name": "vassel-simple-portofolio",
+      "description": null,
+      "url": "https://github.com/sellebeww/vassel-simple-portofolio",
+      "language": "JavaScript",
+      "fork": false,
+      "archived": false
+    }
+  ],
+  "projects": [
+    {
+      "repo": "tomato-vision",
+      "title": "Tomato Vision",
+      "language": "Jupyter Notebook",
+      "homepage": "https://sellebeww.github.io/tomato-vision/",
+      "summary": "A CNN trained from scratch in TensorFlow that grades tomato freshness: fresh, not fresh or rotten. The demo runs in the browser, so photos are never uploaded.",
+      "kind": "Machine learning",
+      "context": "Research prototype",
+      "problem": "Explore visual freshness without sending photos to a server.",
+      "role": "Repository maintainer",
+      "outcome": "Browser inference checked against Keras across 13 parity cases. Evaluation is still limited to a small dataset.",
+      "evidence": "https://github.com/sellebeww/tomato-vision/blob/main/README.md#cara-kerja",
+      "stack": [
+        "TensorFlow",
+        "CNN",
+        "In-browser demo"
+      ],
+      "shots": [
+        "/images/projects/tomato-vision/1.webp",
+        "/images/projects/tomato-vision/2.webp",
+        "/images/projects/tomato-vision/3.webp"
+      ],
+      "alt": "Tomato Vision: freshness classifier home, prediction and dataset screens"
+    },
+    {
+      "repo": "Batch-Aman",
+      "title": "BatchAman",
+      "language": "TypeScript",
+      "homepage": "https://sellebeww.github.io/Batch-Aman/",
+      "summary": "An offline-first PWA for logging food batches. Its default thresholds are not yet expert-verified.",
+      "kind": "Web app",
+      "problem": "Keep a food batch’s journey recorded when connectivity is unreliable.",
+      "role": "Repository maintainer",
+      "outcome": "Local batch timelines, QR labels, and CSV/JSON exports. Field validation remains pending.",
+      "evidence": "https://github.com/sellebeww/Batch-Aman/blob/main/README.md#pemakaian",
+      "stack": [
+        "TypeScript",
+        "PWA",
+        "Offline-first"
+      ],
+      "shots": [
+        "/images/projects/batch-aman/1.webp",
+        "/images/projects/batch-aman/2.webp"
+      ],
+      "alt": "BatchAman: today's dashboard and batch cards"
+    },
+    {
+      "repo": "Ucup-Menjelajahi-Nusantara",
+      "title": "Ucup Menjelajahi Nusantara",
+      "language": "JavaScript",
+      "homepage": null,
+      "summary": "A relaxed adventure across the Indonesian archipelago, with a travel journal, companions and minigames.",
+      "kind": "Web game",
+      "context": "Advanced Web Programming course",
+      "problem": "Turn an archipelago into a playful, explorable travel journal.",
+      "role": "Repository maintainer",
+      "outcome": "Seven regions, four minigames, and saved progress. Keyboard and touch controls share the same adventure.",
+      "evidence": "https://github.com/sellebeww/Ucup-Menjelajahi-Nusantara/blob/main/README.md",
+      "stack": [
+        "JavaScript"
+      ],
+      "shots": [
+        "/images/projects/ucup/1.webp",
+        "/images/projects/ucup/2.webp",
+        "/images/projects/ucup/3.webp"
+      ],
+      "alt": "Ucup Menjelajahi Nusantara: welcome, companions and challenges screens"
+    },
+    {
+      "repo": "Ngantriin",
+      "title": "Ngantriin",
+      "language": "Kotlin",
+      "homepage": null,
+      "summary": "A digital restaurant queue for Android, with a diner app and a staff dashboard.",
+      "kind": "Android app",
+      "problem": "Connect diners and staff around the same restaurant queue.",
+      "outcome": "A diner app and staff dashboard, built with a shared Android stack.",
+      "stack": [
+        "Kotlin",
+        "Jetpack Compose",
+        "MVVM",
+        "Supabase",
+        "Room DB",
+        "WorkManager",
+        "FCM"
+      ],
+      "shots": [
+        "/images/projects/ngantriin/1.webp",
+        "/images/projects/ngantriin/2.webp"
+      ],
+      "alt": "Ngantriin: diner home, search and queue screens, and the restaurant staff dashboard"
+    },
+    {
+      "repo": "JalanKita",
+      "title": "JalanKita",
+      "language": "Kotlin",
+      "homepage": null,
+      "summary": "An offline-first Android app for reporting road damage together, as a community.",
+      "kind": "Android app",
+      "problem": "Make community road-damage reports possible offline.",
+      "outcome": "An Android reporting workflow with light, dark, and large-font interfaces.",
+      "stack": [
+        "Kotlin",
+        "Android",
+        "Offline-first"
+      ],
+      "shots": [
+        "/images/projects/jalankita/1.webp"
+      ],
+      "alt": "JalanKita: home screen in light, dark and large-font modes"
+    },
+    {
+      "repo": "GEPREK-Project-Mata-Kuliah-Game-Development",
+      "title": "GEPREK!",
+      "language": "C#",
+      "homepage": null,
+      "summary": "A top-down 2D business and time-management game about running an ayam geprek stall.",
+      "kind": "Game",
+      "context": "Game Development course",
+      "problem": "Turn running a food stall into a time-management challenge.",
+      "outcome": "A playable 2D stall, service loop, and upgrade shop.",
+      "stack": [
+        "Unity",
+        "C#"
+      ],
+      "shots": [
+        "/images/projects/geprek/1.webp",
+        "/images/projects/geprek/2.webp",
+        "/images/projects/geprek/3.webp"
+      ],
+      "alt": "GEPREK!: title menu, the warung during service, and the upgrade shop"
+    },
+    {
+      "repo": "CAPIRA",
+      "title": "CAPIRA",
+      "language": "TypeScript",
+      "homepage": null,
+      "summary": "Measures capillary refill time with a smartphone camera, scores qSOFA and drafts referrals, all offline-first.",
+      "kind": "Health PWA",
+      "context": "Research prototype",
+      "problem": "Explore offline access to assessment and referral tools.",
+      "outcome": "A camera-based research prototype, with qSOFA and referral drafts; not a clinically validated product.",
+      "stack": [
+        "TypeScript",
+        "PWA",
+        "Offline-first"
+      ],
+      "shots": [
+        "/images/projects/capira/1.webp",
+        "/images/projects/capira/2.webp",
+        "/images/projects/capira/3.webp"
+      ],
+      "alt": "CAPIRA: home, a running synthetic CRT simulation, and its result (simulation, not patient data)"
+    },
+    {
+      "repo": "Vassel-F-B-Experience",
+      "title": "F&B Experience",
+      "language": "TypeScript",
+      "homepage": "https://vassel-f-b-experience.vercel.app/",
+      "summary": "One ordering experience for two venues: an artisanal dining room and a Japanese matcha and coffee bar.",
+      "kind": "Web app",
+      "problem": "Give two distinct venues a coherent ordering experience.",
+      "outcome": "Separate dining and matcha-bar interfaces within one React application.",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind"
+      ],
+      "shots": [
+        "/images/projects/fb-experience/1.webp",
+        "/images/projects/fb-experience/2.webp",
+        "/images/projects/fb-experience/3.webp"
+      ],
+      "alt": "F&B Experience: choose dining or drinks, then the food and matcha-bar homes"
+    },
+    {
+      "repo": "BUNDA-SIAGA",
+      "title": "BUNDA SIAGA",
+      "language": "Kotlin",
+      "homepage": null,
+      "summary": "An offline aid for village health volunteers and midwives: danger signs in pregnancy and after birth, SMS referrals and an optional district-health server.",
+      "kind": "Android app",
+      "context": "Maternal health",
+      "problem": "Keep maternal-health reference and referral tools accessible offline.",
+      "outcome": "An Android prototype with danger-sign prompts and SMS referrals; not evidence of clinical effectiveness.",
+      "stack": [
+        "Kotlin",
+        "Android",
+        "Offline",
+        "SMS"
+      ],
+      "shots": [
+        "/images/projects/bunda-siaga/1.webp"
+      ],
+      "alt": "BUNDA SIAGA: kader home, a danger-sign question, and the red priority result with its reasons"
+    }
+  ],
+  "sourceCommit": "7ca030871f2575fe1d33c974ed9bee33e5b4e3e7"
+}
